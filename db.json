@@ -1,9 +1,101 @@
 {
-    "posts": [
-      { "id": 1, "title": "json-server", "author": "typicode" }
-    ],
-    "comments": [
-      { "id": 1, "body": "some comment", "postId": 1 }
-    ],
-    "profile": { "name": "typicode" }
-  }
+  "productos": [
+      {
+          "id": 1,
+          "nombre": "Nike React SFB Carbon",
+          "precio": "560.000 COP",
+          "coleccion": "men",
+          "imagen": "https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/f9fe4f37-ff66-4f86-b20b-8fbb641544c1/calzado-para-el-aire-libre-elite-react-sfb-carbon-k7gKNd.png"
+          
+      },
+      {
+          "id": 2,
+          "nombre": "zapato de mujer",
+          "precio": "550.000 COP",
+          "descripcion": "Tenis deportivos Nike",
+          "coleccion": "women",
+          "imagen": "https://image.invaluable.com/housePhotos/theodorebruceauctions/55/735655/H3561-L308908517_original.JPG"
+      },
+      {
+          "id": 3,
+          "nombre": "zapato de hombre",
+          "precio": "350.000 COP",
+          "descripcion": "Zapatillas para hombre clásicas",
+          "coleccion": "men",
+          "imagen": "https://d3ugyf2ht6aenh.cloudfront.net/stores/001/707/234/products/0f8d9020-12e8-413f-98b7-82675e0402bb-de30cbe8b1de7a3b4416351877877145-1024-1024.webp"
+      },
+      {
+          "id": 4,
+          "nombre": "zapato de mujer",
+          "precio": "360.000 COP",
+          "descripcion": "Vans Old Skool",
+          "coleccion": "women",
+          "imagen": "https://standshop.com.co/wp-content/uploads/2021/05/30.jpg"
+      },
+      {
+          "id": 5,
+          "nombre": "zapato de hombre",
+          "precio": "450.000 COP",
+          "descripcion": "Reebok Nano X3 White Blue Red",
+          "coleccion": "men",
+          "imagen": "https://images.stockx.com/images/Reebok-Nano-X3-White-Blue-Red.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&q=90&dpr=2&trim=color&updated_at=1678117057"
+      },
+      {
+          "id": 6,
+          "nombre": "zapato de mujer",
+          "precio": "460.000 COP",
+          "descripcion": "Tenis Rebook Running",
+          "coleccion": "women",
+          "imagen" : "https://i.linio.com/p/135809a700ae9b54971cb67a6e7753be-product.jpg"
+      },
+      {
+          "id": 7,
+          "nombre": "zapato de hombre",
+          "precio": "260.000 COP",
+          "descripcion": "Zapatillas Rod Laver Clásicas Retro",
+          "coleccion": "men",
+          "imagen" : "https://tiendisty.com/wp-content/uploads/2019/03/Tenis-Zapatillas-Rod-Laver-Hombre-Cl%C3%A1sicas-Retro.jpg" 
+      },
+      {
+          "id": 8,
+          "nombre": "zapato de mujer",
+          "precio": "460.000 COP",
+          "descripcion": "Skechers Glide Step",
+          "coleccion": "women",
+          "imagen": "https://media.vogue.mx/photos/62793a5a13fd2a0bbeade104/master/w_1600%2Cc_limit/skechers-2.jpg"
+      },
+      {
+          "id": 9,
+          "nombre": "zapato de hombre",
+          "precio": "360.000 COP",
+          "descripcion": "Zapatillas Puma",
+          "coleccion": "men",
+          "imagen": "https://i.pinimg.com/originals/e0/7a/11/e07a110022ac51661ad852ef484b2a3a.jpg"
+      },
+      {
+          "id": 10,
+          "nombre": "zapato de mujer",
+          "precio": "560.000 COP",
+          "descripcion": "Tenis Gym Nike MX",
+          "coleccion": "women",
+          "imagen" : "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/6537724b-0a58-45fa-b06b-ab56b7703516/calzado-de-entrenamiento-hiit-zoom-superrep-4-next-nature-sjgtD5.png"
+      },
+      {
+          "id": 11,
+          "nombre": "zapato de hombre",
+          "precio": "260.000 COP",
+          "descripcion": "Zapatillas Suela Alta",
+          "coleccion": "men",
+          "imagen": "https://http2.mlstatic.com/D_NQ_NP_747674-MCO31843762939_082019-O.jpg"
+      },
+      {
+          "id": 12,
+          "nombre": "zapato de mujer",
+          "precio": "760.000 COP",
+          "descripcion": "Nike AIRMAX 720 SHIELD",
+          "coleccion": "women",
+          "imagen": "https://id-test-11.slatic.net/p/46f73affc306b0c35a6200fdbe155569.jpg"
+      }
+  ]
+
+}
