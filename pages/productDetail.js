@@ -6,6 +6,7 @@ const productId = new URLSearchParams(url).get("id");
 const shoeName = document.querySelector(".shoe-name");
 const originalPrice = document.querySelector(".Precio2");
 const salePrice = document.querySelector(".Precio");
+const addToCartButton = document.getElementById("addToCart");
 
 const allProducts = await getProducts();
 const currentIndex = productId - 1;
@@ -82,7 +83,7 @@ async function getDetailData(index, products) {
   originalPrice.textContent = formatPrice(currentProduct.precio) + ".00 COP";
   salePrice.innerHTML = `${formatPrice(
     currentProduct.precio / 2
-  )}.00 COP <strong>50%</strong>`;
+  )}.000 COP <strong>50%</strong>`;
 }
 
 // Sumar y restar
@@ -96,10 +97,55 @@ btnSumar.addEventListener("click", function () {
   contador.innerText = valor;
 });
 
+// btnRestar.addEventListener("click", function () {
+//   let valor = parseInt(contador.innerText);
+//   valor--;
+//   contador.innerText = valor;
+// });
+
 btnRestar.addEventListener("click", function () {
   let valor = parseInt(contador.innerText);
-  valor--;
-  contador.innerText = valor;
+  if (valor > 1) {
+    valor--;
+    contador.innerText = valor;
+  }
 });
 
 getDetailData(currentIndex, allProducts);
+
+addToCartButton.addEventListener("click",  () => {
+  const selectedProduct = {
+    idProduct: currentProduct.id,
+    name: currentProduct.nombre,
+    price: currentProduct.precio / 2,
+    quantity: parseInt(contador.innerText),
+    image: currentProduct.imagen0,
+    total: (currentProduct.precio / 2) * parseInt(contador.innerText)
+  };
+console.log(selectedProduct)
+saveProductToJson(selectedProduct)
+.then(() => {
+  alert("Product added to cart!");
+})
+.catch((error) => {
+  console.error("Failed to add product to cart:", error);
+  alert("The product could not be added to the cart. try again");
+});
+
+});
+
+
+function saveProductToJson(product) {
+  return fetch("http://localhost:3000/shopping", {
+    method: "POST", 
+    headers: {
+      "Content-Type": "application/json" 
+    },
+    body: JSON.stringify(product)
+  })
+  .then(response => {
+    if (!response.ok) {
+      throw new Error("Failed to save product to Json");
+    }
+  });
+}
