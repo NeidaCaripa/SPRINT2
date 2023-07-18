@@ -5,3 +5,9 @@ export async function getProducts() {
   const data = await response.json();
   return data;
 }
+
+export async function getProductShopping() {
+  const response = await fetch(`${URL}/shopping`);
+  const data = await response.json();
+  return data;
+}
