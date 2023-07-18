@@ -12,16 +12,16 @@
       "imagen4": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/cb6d50cd-9128-445b-9091-c183f28b5a3f/calzado-air-jordan-7-retro-7Zr804.png"
     },
     {
-      "id": 2,
-      "nombre": "Nike Air VaporMax 2023 Flyknit",
-      "precio": "550000",
-      "coleccion": "women",
-      "imagen0": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/427142af-e5b4-4fcf-8390-70eb4d53ecbb/calzado-air-vapormax-2023-flyknit-HtMgGW.png",
-      "imagen1": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/8e3735b2-fb08-4d6e-81e7-c49afedad951/calzado-air-vapormax-2023-flyknit-HtMgGW.png",
-      "imagen2": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/9b245af6-26b7-4d0a-9097-79287db8618a/calzado-air-vapormax-2023-flyknit-HtMgGW.png",
-      "imagen3": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/f7e8322b-3dec-4fa7-a6a5-6e5b40384040/calzado-air-vapormax-2023-flyknit-HtMgGW.png",
-      "imagen4": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/9f291eab-673a-4823-b20c-7cd61e52d9ca/calzado-air-vapormax-2023-flyknit-HtMgGW.png"
-    },
+        "id": 2,
+        "nombre": "Nike Air VaporMax 2023 Flyknit",
+        "precio": "550000",
+        "coleccion": "women",
+        "imagen0": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/427142af-e5b4-4fcf-8390-70eb4d53ecbb/calzado-air-vapormax-2023-flyknit-HtMgGW.png",
+        "imagen1": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/8e3735b2-fb08-4d6e-81e7-c49afedad951/calzado-air-vapormax-2023-flyknit-HtMgGW.png",
+        "imagen2": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/9b245af6-26b7-4d0a-9097-79287db8618a/calzado-air-vapormax-2023-flyknit-HtMgGW.png",
+        "imagen3": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/f7e8322b-3dec-4fa7-a6a5-6e5b40384040/calzado-air-vapormax-2023-flyknit-HtMgGW.png",
+        "imagen4": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/9f291eab-673a-4823-b20c-7cd61e52d9ca/calzado-air-vapormax-2023-flyknit-HtMgGW.png"
+    },   
     {
       "id": 3,
       "nombre": "Nike Air Max Solo",
@@ -89,25 +89,26 @@
       "imagen4": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/86997d26-771f-48f2-8e4c-548be498cc97/calzado-air-jordan-1-mid-se-p7vt3f.png"
     },
     {
-      "id": 9,
-      "nombre": "Nike Air Max 97",
-      "precio": "360000",
-      "coleccion": "men",
-      "imagen0": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/726672dc-f22b-4ed9-9df6-58d9a5fed4a0/calzado-air-max-97-LJmK45.png",
-      "imagen1": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/4363f52e-6908-4d9a-aa7e-631e89fa663e/calzado-air-max-97-LJmK45.png",
-      "imagen2": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/e069e7ab-ac0d-453b-8425-593da4e4d29f/calzado-air-max-97-LJmK45.png",
-      "imagen3": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/30b689df-dc3b-458f-83c5-d4b1519ab724/calzado-air-max-97-LJmK454"
+        "id": 9,
+        "nombre": "Nike Air Max 97",
+        "precio": "360000",
+        "coleccion": "men",
+        "imagen0": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/726672dc-f22b-4ed9-9df6-58d9a5fed4a0/calzado-air-max-97-LJmK45.png",
+        "imagen1": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/4363f52e-6908-4d9a-aa7e-631e89fa663e/calzado-air-max-97-LJmK45.png",
+        "imagen2": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/e069e7ab-ac0d-453b-8425-593da4e4d29f/calzado-air-max-97-LJmK45.png",
+        "imagen3":"https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/30b689df-dc3b-458f-83c5-d4b1519ab724/calzado-air-max-97-LJmK454" 
     },
     {
-      "id": 10,
-      "nombre": "Nike Air Huarache Craft",
-      "precio": "560000",
-      "coleccion": "women",
-      "imagen0": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/6eff4067-24d3-47d8-b524-6553d17ba71f/calzado-air-huarache-craft-Cp4dSR.png",
-      "imagen1": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/74630757-5918-4710-a7bb-5531724a9db5/calzado-air-huarache-craft-Cp4dSR.png",
-      "imagen2": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/24514283-d585-4e1f-805b-636074f27ac4/calzado-air-huarache-craft-Cp4dSR.png",
-      "imagen3": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/8037236a-a926-4398-b5d4-902a92093112/calzado-air-huarache-craft-Cp4dSR.png",
-      "imagen4": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/425fb6a0-bbe4-44a2-b98d-0ced06e6c19c/calzado-air-huarache-craft-Cp4dSR.png"
+        "id": 10,
+        "nombre": "Nike Air Huarache Craft",
+        "precio": "560000",
+        "coleccion": "women",
+        "imagen0" : "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/6eff4067-24d3-47d8-b524-6553d17ba71f/calzado-air-huarache-craft-Cp4dSR.png",
+        "imagen1" : "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/74630757-5918-4710-a7bb-5531724a9db5/calzado-air-huarache-craft-Cp4dSR.png",
+        "imagen2" : "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/24514283-d585-4e1f-805b-636074f27ac4/calzado-air-huarache-craft-Cp4dSR.png",
+        "imagen3" : "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/8037236a-a926-4398-b5d4-902a92093112/calzado-air-huarache-craft-Cp4dSR.png",
+        "imagen4" : "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/425fb6a0-bbe4-44a2-b98d-0ced06e6c19c/calzado-air-huarache-craft-Cp4dSR.png"
+        
     },
     {
       "id": 11,
