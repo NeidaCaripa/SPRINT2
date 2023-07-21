@@ -97,12 +97,6 @@ btnSumar.addEventListener("click", function () {
   contador.innerText = valor;
 });
 
-// btnRestar.addEventListener("click", function () {
-//   let valor = parseInt(contador.innerText);
-//   valor--;
-//   contador.innerText = valor;
-// });
-
 btnRestar.addEventListener("click", function () {
   let valor = parseInt(contador.innerText);
   if (valor > 1) {
