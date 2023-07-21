@@ -28,7 +28,8 @@
         </button>
         <aside class="modal_shopping">
           <h3>Cart</h3>
-          <div id="cartItemList" class="content"></div>
+          <div id="cartItemList" class="content">
+          <button id="checkaut" class="hiden">Checkaut</button> </div>
         </aside>
         <img
           class="ImgAvatar"
@@ -84,6 +85,18 @@
             <span>Add to cart</span>
           </button>
         </div>
+        <form class="formulario-check" id="form">
+          <label class="nombre">Nombre:</label>
+          <input name="nombre" type="text" id="nombre"></input>
+      
+          <label class="cedula">Cédula:</label>
+          <input name="cedula" type="text" id="cedula"></input>
+      
+          <label class="tarjeta-C">Tarjeta de Crédito:</label>
+          <input  name="tarjetaDeCredito" type="text" id="tarjetaDeCredito"></input>
+      
+          <button class="botonFormulario" id="botonFormulario" type="submit">Enviar</button>
+        </form>
       </section>
       <!-- El modal-->
       <div id="myModal" class="modal">
@@ -107,22 +120,8 @@
         </div>
       </div>
 
-
       <!-- Fin del modal-->
       <!--Formulario de checkout-->
-  <form class="formulario-check">
-    <label class="nombre">Nombre:</label>
-    <input type="text"></input>
-
-    <label class="cedula">Cédula:</label>
-    <input type="text"></input>
-
-    <label class="tarjeta-C">Tarjeta de Crédito:</label>
-    <input type="text"></input>
-
-    <input class="buton" type="submit" value="Enviar">
-</form>
-
     </main>
     <script type="module" src="./productDetail.js"></script>
     <script type="module" src="../services/shopping.js"></script>

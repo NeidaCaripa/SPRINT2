@@ -80,10 +80,10 @@ async function getDetailData(index, products) {
   });
 
   shoeName.textContent = currentProduct.nombre;
-  originalPrice.textContent = formatPrice(currentProduct.precio) + ".00 COP";
+  originalPrice.textContent = formatPrice(currentProduct.precio) + " COP";
   salePrice.innerHTML = `${formatPrice(
     currentProduct.precio / 2
-  )}.000 COP <strong>50%</strong>`;
+  )} COP <strong>50%</strong>`;
 }
 
 // Sumar y restar

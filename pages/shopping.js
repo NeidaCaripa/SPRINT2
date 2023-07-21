@@ -3,6 +3,7 @@ const allProducts = await getProductShopping();
 const shoppingButton = document.querySelector(".shopping-cart");
 const shoppingModal = document.querySelector(".modal_shopping");
 const cartItemsContainer = document.getElementById("cartItemList");
+const checkaut = document.getElementById("checkaut");
 
 
 shoppingButton.addEventListener("click", () => {
@@ -17,5 +18,6 @@ shoppingButton.addEventListener("click", () => {
       span.textContent = `${item.name} - $${item.total} - cant. ${item.quantity}`; 
       cartItemsContainer.appendChild(span);
     });
+    checkaut.classList.remove("hiden")
   } 
 });
