@@ -150,6 +150,15 @@
       "image": "https://vansco.vteximg.com.br/arquivos/ids/307914-1200-1200/VN0A7Q5DBMB-1.jpg?v=638236700243170000",
       "total": 673500,
       "id": 2
+    },
+    {
+      "idProduct": 2,
+      "name": "Nike Air VaporMax 2023 Flyknit",
+      "price": 275000,
+      "quantity": 1,
+      "image": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/427142af-e5b4-4fcf-8390-70eb4d53ecbb/calzado-air-vapormax-2023-flyknit-HtMgGW.png",
+      "total": 275000,
+      "id": 3
     }
   ],
   "compraUsuario": [
